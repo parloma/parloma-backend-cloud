@@ -59,9 +59,9 @@ class RegisterResource(Resource):
             user.save()
         except NotUniqueError:
             return {'error': 'email already registered'}, 401
-        msg = Message('HotBlack Robotics - Complete Your Registration', 
+        msg = Message('PARLOMA - Complete Your Registration', 
                 recipients=[user.email],
-                cc=['info@hotblackrobotics.com']
+                cc=['info@parloma.com']
             )
         msg.body = render_template('mail_registration.txt', mainsite=current_app.config["MAIN_SITE_URL"], token=user.generate_activation_token())
         mail.send(msg)

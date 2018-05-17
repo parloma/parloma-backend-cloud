@@ -3,9 +3,9 @@ from ..models import User, Robot
 from flask_jwt_extended import exceptions as jwt_extended_exception
 
 api = Api(
-    title='HBR Server API',
+    title='PARLOMA Server API',
     version='1.0',
-    description='API for build HBR Server',
+    description='API for build PARLOMA Server',
     ui=False
 )
 

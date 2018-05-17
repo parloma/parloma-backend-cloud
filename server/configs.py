@@ -5,8 +5,8 @@ class Config(object):
     RESTPLUS_VALIDATE = True
 
     JWT_ACCESS_TOKEN_EXPIRES = timedelta(days=3)
-    MAIL_DEFAULT_SENDER = 'no-reply@hotblackrobotics.com'
-    MAIN_SITE_URL = 'crf.hotblackrobotics.com'
+    MAIL_DEFAULT_SENDER = 'no-reply@parloma.com'
+    MAIN_SITE_URL = 'crf.parloma.com'
 
     MONGODB_SETTINGS = {
         'db': os.environ.get('MONGODB_NAME') or 'default',
