@@ -21,7 +21,7 @@ def test_user_registration(client):
 
         assert len(outbox) == 1
         msg = outbox[0]
-        assert msg.subject == 'HotBlack Robotics - Complete Your Registration'
+        assert msg.subject == 'PARLOMA - Complete Your Registration'
         
     user = User.objects.get(email=email)
     assert user.activated == False

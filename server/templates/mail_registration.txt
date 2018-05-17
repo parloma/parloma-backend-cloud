@@ -1,11 +1,9 @@
 Hi,
-Welcome in the new HBR Cloud Platform.
+Welcome in the new PARLOMA Cloud Platform.
 
 You need to confirm your mail to access the plarform. To do so, click on the following link:
 
 http://{{mainsite}}/auth/register/confirm?token={{token}}
 
 
-HotBlack Robotics Team
-Gabriele,
-Ludovico
+PARLOMA Team
