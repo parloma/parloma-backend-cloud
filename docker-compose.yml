@@ -8,8 +8,8 @@ services:
       - CONFIG=docker
       - MONGO_URL=mongodb://mongodb
       - MONGO_DB=mongo
-      - MAIL_PASSWORD=R0b0tC0nn3ss1
-      - MAIL_USERNAME=info@hotblackrobotics.com
+      - MAIL_PASSWORD=parloma
+      - MAIL_USERNAME=info@parloma.com
     ports:
       - 8080:80
   mongodb:
