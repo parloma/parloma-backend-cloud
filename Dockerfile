@@ -18,4 +18,6 @@ RUN update-rc.d -f nginx disable
 COPY ./entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
 
+EXPOSE 80
+
 CMD ["/usr/bin/supervisord"]
