@@ -149,5 +149,5 @@ class GetRobotResource(Resource):
     @api.marshal_with(robot_model)
     def get(self):
         # robots = [r for r in Robot.get_connected_by_ip(request.remote_addr)]
-        robots = [r for r in Robot]
+        robots = [r for r in Robot.objects]
         return robots

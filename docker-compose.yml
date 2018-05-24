@@ -9,7 +9,7 @@ services:
       - MONGO_URL=mongodb://mongodb
       - MONGO_DB=mongo
       - MAIL_PASSWORD=parloma
-      - MAIL_USERNAME=info@parloma.com
+      - MAIL_USERNAME=info@parloma.science
     ports:
       - 8080:80
   mongodb:
